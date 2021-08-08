@@ -1,2 +1,2 @@
-# restaurent
-A demo restaurent site
+# restaurant
+A demo restaurant site
