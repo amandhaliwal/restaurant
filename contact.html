@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+Name: Amandip Dhaliwal
+Date Created: 08-07-2021
+Most recent revision:
+-->
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+	<main>
+		<header>
+		  <h1>Dhaliwal Restaurant</h1>
+		</header>
+		<nav>
+			<hr/>
+			<p><a href="index.html">Home</a></p>
+			<p><a href="menu.html">Menu</a></p>
+			<p><a href="contact.html">Contact Us</a></p>
+			<hr/>
+		</nav>
+		<section>
+			<form action="submit.html" method="POST">
+				<label for="name">Name: </label> 
+				<input type="text" id="name" name="name"> <br />
+				<label for="email">Email: </label> 
+				<input type="text" id="email" name="email"> <br />
+				<label for="phone">Phone: </label> 
+				<input type="text" id="phone" name="phone"> <br />
+				<label for="contact">Reason for Inquiry: </label>
+				<select id="contact" name="contact">
+					<option value="catering" selected>Catering</option>
+					<option value="private-party">Private Party</option>
+					<option value="feedback">Feedback</option>
+					<option value="other">Other</option>
+				</select><br/>
+				<label for="info">Additional Information: </label>
+				<textarea id="info" name="info"></textarea><br />
+				<span>Have you been to the restaurant? </span> 
+				<input type="radio" id="choice1" name="visited" value="yes">
+				<label for="choice1">Yes</label> 
+				<input type="radio" id="choice2" name="visited" value="no">
+				<label for="choice2">No</label><br />
+				<span>Best days to contact you: </span> 
+				<input type="checkbox" id="monday" name="daycontact" value="monday">
+				<label for="monday">M</label> 
+				<input type="checkbox" id="tuesday" name="daycontact" value="tuesday">
+				<label for="tuesday">T</label> 
+				<input type="checkbox" id="wednesday" name="daycontact" value="wednesday">
+				<label for="wednesday">W</label> 
+				<input type="checkbox" id="thursday" name="daycontact" value="thursday">
+				<label for="thursday">Th</label> 
+				<input type="checkbox" id="friday" name="daycontact" value="friday">
+				<label for="friday">F</label> 
+				<br />
+				<input type="submit" name="submit" value="Send Request">
+			</form>
+		</section>
+		<footer>
+			<hr/>
+			<p>1313 Street, Surrey, BC V3V5S8</p>
+			<p>Tel: 604-133-1213</p>
+		</footer>
+	</main>
+  </body>
+</html>
